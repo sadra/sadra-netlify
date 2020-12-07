@@ -36,7 +36,10 @@ export default function Template({
             dangerouslySetInnerHTML={{ __html: html }}
           />
           
-          <div id="graphcomment"></div>
+          <div>
+            <div className="commentDiv"></div>
+            <div id="graphcomment"></div>
+          </div>
 
 
         </article>
