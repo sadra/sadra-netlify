@@ -9,6 +9,7 @@ export default function Template({
   const { site, markdownRemark } = data // data.markdownRemark holds your post data
   const { siteMetadata } = site
   const { frontmatter, html } = markdownRemark
+
   return (
     <Layout>
       <Helmet>
@@ -34,6 +35,10 @@ export default function Template({
             className="blog-post-content"
             dangerouslySetInnerHTML={{ __html: html }}
           />
+          
+          <div id="graphcomment"></div>
+
+
         </article>
       </div>
     </Layout>
