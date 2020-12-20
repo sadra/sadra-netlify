@@ -10,10 +10,26 @@ export default ({ children }) => {
       fixed_header_height: 0,
     };
 
-    (function() {
-      var gc = document.createElement('script'); gc.type = 'text/javascript'; gc.async = true;
-      gc.src = 'https://graphcomment.com/js/integration.js?' + Math.round(Math.random() * 1e8);
+    const addJs = url => {
+      var gc = document.createElement('script');
+      gc.type = 'text/javascript';
+      gc.async = true;
+      gc.src = url;
       (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(gc);
+    }
+
+    const addCss = url => {
+      var gc = document.createElement('link');
+      gc.rel = 'stylesheet';
+      gc.href = url;
+      document.getElementsByTagName('head')[0].prepend(gc)
+    }
+
+    (function() {
+      addCss("https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css")
+      addJs("https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js")
+      addJs("https://use.fontawesome.com/releases/v5.15.1/js/all.js")
+      addJs('https://graphcomment.com/js/integration.js?' + Math.round(Math.random() * 1e8))
     })();
   }, null)
 

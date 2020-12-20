@@ -22,7 +22,7 @@ export default () => (
           <div className="col-12 col-lg-4 justify-content-center align-items-center  text-center">
               <img
                 className="avatar text-center rounded-circle shadow mb-3 bg-white rounded"
-                src="/images/sadra.jpeg"
+                src="/images/sadra.jpg"
                 data-holder-rendered="true"></img>
 
             <div className="headline">Sadra Amlashi</div>
@@ -34,7 +34,6 @@ export default () => (
               <a href="#"><i className="fab fa-stack-overflow fa-2x mx-2"></i></a>
               <a href="#"><i className="fab fa-dev fa-2x mx-2"></i></a>
             </div>
-            {/* <div className="headline">{data.site.siteMetadata.home.title}</div> */}
           </div>
           <div className="col-12 col-lg-8">
 
@@ -61,7 +60,7 @@ export default () => (
               <img className="mx-3 mb-3 mt-1" src="https://raw.githubusercontent.com/Delta456/Delta456/master/img/vscode.png" alt="vscode logo" width="40"/>
               <img className="mx-3 mb-3 mt-1" src="https://raw.githubusercontent.com/devicons/devicon/3b40f5c4cc89355edb33e86a93e919dd25c36a81/icons/intellij/intellij-original.svg" alt="intellij" width="40"/> 
             </div>
-            <em><b>I love connecting with different people</b> so if you want to say <b>hi, I'll be happy to meet you more!</b> :)</em>
+            <em><b>I love connecting with different people</b> so if you want to say <b>hi, I'll be happy to meet you more!</b> :) <strong><a href="/contact">Contact me now!</a></strong></em>
           </div>
       </div>
       </div>
