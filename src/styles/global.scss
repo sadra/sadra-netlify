@@ -403,3 +403,27 @@ body.light {
     max-width: 768px;
     margin: 35px auto 25px auto;
 }
+.avatar {
+    width: 250px;
+}
+
+@media (max-width: 575px) {
+    .headline {
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 360px) {
+    .headline {
+        font-size: 20px;
+    }
+    h3 {
+        font-size: calc(1.1rem + 0.6vw);
+    }
+}
+
+@media (max-width: 575px) {
+    p {
+        font-size: 16px;
+    }
+}
