@@ -1,5 +1,6 @@
 import React from "react"
-import { StaticQuery, graphql, Link } from "gatsby"
+import { StaticQuery, graphql } from "gatsby"
+
 export default () => (
   <StaticQuery
     query={graphql`
@@ -23,6 +24,7 @@ export default () => (
               <img
                 className="avatar text-center rounded-circle shadow mb-3 bg-white rounded"
                 src="/images/sadra.jpg"
+                alt="avatar"
                 data-holder-rendered="true"></img>
 
             <div className="headline">Sadra Amlashi</div>

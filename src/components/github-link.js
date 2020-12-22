@@ -1,5 +1,4 @@
 import React from "react"
-import { Link } from "gatsby"
 
 const GithubLink = ({ name, description, stars, forks, link, thumbnail }) => (
   <article className="card ">

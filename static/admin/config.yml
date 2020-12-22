@@ -41,26 +41,6 @@ collections:
                         label: Description
                         default: ''
                         required: false
-    - name: repositories
-      label: Repositories
-      files:
-          - name: repos
-            label: Repos
-            file: repos.json
-            fields:
-                - widget: string
-                  name: title
-                  label: Repo Title
-                  required: true
-                - widget: string
-                  name: description
-                  label: Description
-                  required: true
-                - widget: text
-                  name: stars
-                  label: Stars
-                  required: false
-
     - name: blog
       label: Blog
       folder: _data/blog
