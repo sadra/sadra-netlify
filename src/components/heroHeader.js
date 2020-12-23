@@ -30,11 +30,11 @@ export default () => (
             <div className="headline">Sadra Amlashi</div>
             <p className="h5">NodeJs/NestJS<br/>Backend Developer</p>
             <div className="my-3">
-              <a href="#"><i className="fas fa-at fa-2x mx-2"></i></a>
-              <a href="#"><i className="fab fa-twitter-square fa-2x mx-2"></i></a>
-              <a href="#"><i className="fab fa-github fa-2x mx-2"></i></a>
-              <a href="#"><i className="fab fa-stack-overflow fa-2x mx-2"></i></a>
-              <a href="#"><i className="fab fa-dev fa-2x mx-2"></i></a>
+              <a href="mailto:amlashi.sadra@gmail.com"><i className="fas fa-at fa-2x mx-2"></i></a>
+              <a href="https://twitter.com/sadra_me"><i className="fab fa-twitter-square fa-2x mx-2"></i></a>
+              <a href="https://github.com/sadra"><i className="fab fa-github fa-2x mx-2"></i></a>
+              <a href="https://stackoverflow.com/users/10819789/sadra-amlashi"><i className="fab fa-stack-overflow fa-2x mx-2"></i></a>
+              <a href="https://dev.to/sadra"><i className="fab fa-dev fa-2x mx-2"></i></a>
             </div>
           </div>
           <div className="col-12 col-lg-8">

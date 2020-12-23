@@ -56,6 +56,13 @@ export default ({ children }) => {
       </header>
       {children}
       <footer className="site-footer">
+            <div className="my-3">
+              <a href="mailto:amlashi.sadra@gmail.com"><i className="fas fa-at fa-1x mx-2"></i></a>
+              <a href="https://twitter.com/sadra_me"><i className="fab fa-twitter-square fa-1x mx-2"></i></a>
+              <a href="https://github.com/sadra"><i className="fab fa-github fa-1x mx-2"></i></a>
+              <a href="https://stackoverflow.com/users/10819789/sadra-amlashi"><i className="fab fa-stack-overflow fa-1x mx-2"></i></a>
+              <a href="https://dev.to/sadra"><i className="fab fa-dev fa-1x mx-2"></i></a>
+            </div>
         <p>&copy; {new Date().getFullYear()} Delog &bull; Crafted with <span role="img" aria-label="love">❤️</span> by <a href="https://w3layouts.com">W3Layouts</a></p>
       </footer>
     </div>
