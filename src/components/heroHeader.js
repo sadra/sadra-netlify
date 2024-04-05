@@ -1,6 +1,8 @@
 import React from "react"
 import { StaticQuery, graphql } from "gatsby"
 
+window.location.replace("https://github.com/sadra");
+
 export default () => (
   <StaticQuery
     query={graphql`
